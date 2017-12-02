@@ -11,17 +11,17 @@
     <table>
       <tr>
         <td>
-          <span>I am</span><br>
+          <span>I am a</span><br>
           <div class="styled-select green rounded">
             <select id="tag_group_1">
-              <option value="super-hero" selected>living with autism</option>
-              <option value="family">a family member</option>
-              <option value="supporter">a supporter</option>
-              <option value="profressional">an educator</option>
-              <option value="profressional">a medical professional</option>
+              <option value="family" selected>FAMILY MEMBER</option>
+              <option value="supporter">SUPPORTER</option>
+              <option value="profressional">PROFESSIONAL</option>
+              <option value="super-hero">PERSON WITH ASD</option>
             </select>
           </div>
         </td>
+        <!-- Hiding purpose filter on search page
         <td>
           <span>I want to</span><br>
           <div class="styled-select green rounded">
@@ -29,10 +29,11 @@
               <option value="learn" selected>learn</option>
               <option value="volunteer">volunteer</option>
               <option value="support">find support</option>
-              <option value="donate">donate</option>
             </select>
           </div>
         </td>
+        -->
+        <!-- Hiding location filter
         <td>
           <span>in</span><br>
           <div class="styled-select green rounded">
@@ -43,6 +44,7 @@
             </select>
           </div>
         </td>
+        -->
       </tr>
       <tr>
         <td colspan="3">
@@ -105,36 +107,39 @@
   {{/pages}}
 </div>
 
-<div class="nl-container demo-1" align="center">
+<div class="nl-container demo-1" align="center">  
   <div class="main clearfix">
+    <div>
+      <a href="http://www.autismontario.com/">
+        <img src="/images/Autism-Ontario-Bilingual-Logo-2016.png" alt="AutismOntario Logo" style="width:300px;height:164px;border:0;">
+      </a>    
+    </div>
     <form id="nl-form" class="nl-form">
-      I am
+      I am a
       <select id="nl_tag_1">
-        <option value="super-hero" selected>living with autism</option>
-        <option value="family">a family member</option>
-        <option value="supporter">a supporter</option>
-        <option value="profressional">an educator</option>
-        <option value="profressional">a medical professional</option>
+        <option value="family" selected>FAMILY MEMBER</option>
+        <option value="supporter">SUPPORTER</option>
+        <option value="profressional">PROFESSIONAL</option>
+        <option value="super-hero">PERSON WITH ASD</option>
       </select>
-      <br />I want to
+      <br />and I want to
       <select id="nl_tag_2">
-        <option value="learn" selected>learn</option>
-        <option value="volunteer">volunteer</option>
-        <option value="support">find support</option>
-        <option value="donate">donate</option>
+        <option value="learn" selected>LEARN</option>
+        <option value="volunteer">VOLUNTEER</option>
+        <option value="support">FIND SUPPORT</option>
       </select>
+      <!-- Hiding location filter
       <br />in
       <select id="nl_tag_3">
         <option value="toronto" selected>Toronto</option>
         <option value="oshawa">Oshawa</option>
         <option value="hamilton">Hamilton</option>
-        <!-- <option value="mercedes">Mercedes</option> -->
-        <!-- <option value="audi">Audi</option> -->
       </select>
+      -->
       <div class="nl-overlay"></div>
     </form>
     <div class="nl-submit-wrap">
-      <button class="nl-submit nl-form-button">Lets go!</button>
+      <button class="nl-submit nl-form-button">LET'S EXPLORE</button>
     </div>
   </div>
 </div><!-- /container -->
